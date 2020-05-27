@@ -42,6 +42,6 @@ Open new console, navigate to the `quarantine-project/python`
 source venv/bin/activate
 python plotter.py
 ```
-
+To kill it, press "CTRL + \"
 
 ## ENJOY!
