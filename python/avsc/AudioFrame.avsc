@@ -1,0 +1,25 @@
+{
+   "type":"record",
+   "name":"AudioFrame",
+   "namespace":"co.storkie",
+   "fields":[
+      {
+         "name":"start_ts",
+         "type":"double"
+      },
+      {
+         "name":"end_ts",
+         "type":"double"
+      },
+      {
+         "name":"data",
+         "type":{
+            "type":"array",
+            "items":{
+               "type":"array",
+               "items":"double"
+            }
+         }
+      }
+   ]
+}

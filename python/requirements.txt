@@ -1,0 +1,7 @@
+SoundCard~=0.3.3
+numpy
+kafka-python
+kafka
+fastavro
+matplotlib
+scipy
